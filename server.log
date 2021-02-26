@@ -1,0 +1,451 @@
+Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "detect_api1.py", line 203, in Home_page
+    return render_template('template.html')
+NameError: name 'render_template' is not defined
+Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "detect_api1.py", line 203, in Home_page
+    def Home_page():
+NameError: name 'render_template' is not defined
+Exception on /api/test [GET]
+Traceback (most recent call last):
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "detect_api1.py", line 208, in main
+    if request.method == 'GET':
+NameError: name 'render_template' is not defined
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/2.jpg
+saving /home/dell/flask/uploads/2.jpg
+saving /home/dell/flask/uploads/2.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/3.jpg
+saving /home/dell/flask/uploads/3.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/2.jpg
+saving /home/dell/flask/uploads/1.jpg
+saving /home/dell/flask/uploads/3.jpg
+saving /home/dell/flask/uploads/4.jpg
+saving /home/dell/flask/uploads/5.jpg
+saving /home/dell/flask/uploads/6.jpg
+saving /home/dell/flask/uploads/7.jpg
+saving /home/dell/flask/uploads/8.jpg
+saving /home/dell/flask/uploads/9.jpg
+saving /home/dell/flask/uploads/7.jpg
+saving /home/dell/flask/uploads/5.jpg
+saving /home/dell/flask/uploads/5.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving static/uploads/
+saving static/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+/home/dell/VehiclePlateRecognition/uploads/
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+saving /home/dell/VehiclePlateRecognition/uploads/13.jpg
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+Exception on /api/test [POST]
+Traceback (most recent call last):
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/dell/VehiclePlateRecognition/detect_api3.py", line 250, in main
+    cv2.imshow("1",Cropped)
+cv2.error: OpenCV(4.2.0) /io/opencv/modules/highgui/src/window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'imshow'
+
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+Exception on /api/test [POST]
+Traceback (most recent call last):
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "detect_api3.py", line 250, in main
+    cv2.imshow("1",Cropped)
+cv2.error: OpenCV(4.2.0) /io/opencv/modules/highgui/src/window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'imshow'
+
+/home/dell/VehiclePlateRecognition
+Exception on /api/test [POST]
+Traceback (most recent call last):
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "detect_api3.py", line 250, in main
+    cv2.imshow("1",Cropped)
+cv2.error: OpenCV(4.2.0) /io/opencv/modules/highgui/src/window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'imshow'
+
+/home/dell/VehiclePlateRecognition
+Exception on /api/test [POST]
+Traceback (most recent call last):
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dell/flaskprojects/venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "detect_api3.py", line 250, in main
+    cv2.imshow("1",Cropped)
+cv2.error: OpenCV(4.2.0) /io/opencv/modules/highgui/src/window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'imshow'
+
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/VehiclePlateRecognition
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
+/home/dell/flaskprojects
